@@ -605,15 +605,15 @@
     </CalendarMainNavigationBackground>
     <CalendarHeaderStart
             description="Starting color of the gradient used as the background for header with days in a calendar">
-        #787878
+        #3C3F41
     </CalendarHeaderStart>
     <CalendarHeaderEnd
-            description="Ending color of the gradient used as the background for header with days in a calendar">#787878
+            description="Ending color of the gradient used as the background for header with days in a calendar">#3C3F41
     </CalendarHeaderEnd>
-    <CalendarHeaderFontColor description="Color of the text in a header with days in a calendar">#3C3F41
+    <CalendarHeaderFontColor description="Color of the text in a header with days in a calendar">#BABABA
     </CalendarHeaderFontColor>
     <CalendarTodayHeaderFontColor description="Color of the text for a current day in a header with days in a calendar">
-        #3C3F41
+        #FFFFFF
     </CalendarTodayHeaderFontColor>
     <CalendarSubheaderBackground
             description="Background color of a space between the header with days and the main calendar view (week or day calendar view)">
@@ -622,14 +622,14 @@
     <CalendarBackground description="Background color of a calendar">#F5F5F5</CalendarBackground>
     <CalendarNonWorkingHoursBackground
             description="Background color of a calendar for the time which is outside the working time (week or day view)">
-        #3C3F41
+        #BABABA
     </CalendarNonWorkingHoursBackground>
     <CalendarHoursBackground description="Background color of a left-side bar with hours in a week or day view">
         #3C3F41
     </CalendarHoursBackground>
-    <CalendarHoursFontColor description="Color of the text a left-side bar with hours in a week or day view">#787878
+    <CalendarHoursFontColor description="Color of the text a left-side bar with hours in a week or day view">#BABABA
     </CalendarHoursFontColor>
-    <CalendarActiveDayBackground description="Background color of an currently selected day in a calendar">#DCEBFC
+    <CalendarActiveDayBackground description="Background color of an currently selected day in a calendar">#648F00
     </CalendarActiveDayBackground>
     <CalendarGridStrongLine description="Color of vertical lines in a month view">#C8C8C8</CalendarGridStrongLine>
     <CalendarGridLightLine description="Color of horizontal lines in a week view">#EBEBEB</CalendarGridLightLine>
@@ -648,13 +648,13 @@
         #F5F5F5
     </CalendarMonthViewDayHeaderEnd>
     <CalendarTodayBackgroundStart
-            description="Starting color of the gradient used as the background for header for a current day">#A0A0A0
+            description="Starting color of the gradient used as the background for header for a current day">#648F00
     </CalendarTodayBackgroundStart>
     <CalendarTodayBackgroundEnd
-            description="Ending color of the gradient used as the background for header for a current day">#A0A0A0
+            description="Ending color of the gradient used as the background for header for a current day">#648F00
     </CalendarTodayBackgroundEnd>
     <CalendarHeaderBorder description="Border line color around calendar header">#787878</CalendarHeaderBorder>
-    <CalendarCurrentTimeLine description="Color of a line displaying current time in a week view">#FF4500
+    <CalendarCurrentTimeLine description="Color of a line displaying current time in a week view">#FF0000
     </CalendarCurrentTimeLine>
     <CalendarNavigationBackground description="Background color of a small calendar shown in left sidebar calendar box">
         #3C3F41
@@ -663,7 +663,7 @@
         #BABABA
     </CalendarNavigationForeground>
     <CalendarEvenMonthBackground description="Alternating background color for even months in a calendar (month view)">
-        #3C3F41
+        #BABABA
     </CalendarEvenMonthBackground>
     <CalendarTasksHeaderBackground
             description="Background color of a header for tasks shown below the calendar in day or week view">#3C3F41
@@ -710,22 +710,22 @@
         False
     </UseRoundedCornersForDateSelector>
     <!--Contact business cards-->
-    <BusinessCardsBorder description="Border line color of a contact if switched to a business cards view">#E7E8E9
+    <BusinessCardsBorder description="Border line color of a contact if switched to a business cards view">#FFFFFF
     </BusinessCardsBorder>
     <BusinessCardsForeground description="Text color of a contact if switched to a business cards view">#323232
     </BusinessCardsForeground>
     <BusinessCardsSelectedCardBackground
-            description="Background color of a selected contact if switched to a business cards view">#E3EFFC
+            description="Background color of a selected contact if switched to a business cards view">#BABABA
     </BusinessCardsSelectedCardBackground>
     <BusinessCardsHoveredBorder
             description="Border line color of a contact under the mouse position if switched to a business cards view">
-        #E3EFFC
+        #BABABA
     </BusinessCardsHoveredBorder>
     <BusinessCardsBackground
-            description="Background color of a space around all contacts if switched to a business cards view">#3C3F41
+            description="Background color of a space around all contacts if switched to a business cards view">#2b2b2b
     </BusinessCardsBackground>
     <BusinessCardsCardBackground description="Background color of a contact if switched to a business cards view">
-        #3C3F41
+        #FFFFFF
     </BusinessCardsCardBackground>
     <!--Widgets-->
     <WidgetHeaderStart description="Starting color of the gradient used as the background for header of widgets">
@@ -781,15 +781,15 @@
             Transparent
         </ButtonSelectedBorder>
         <ButtonSelectedGradientBegin
-                description="Gets the starting color of the gradient used when the button is selected">#DCEBFC
+                description="Gets the starting color of the gradient used when the button is selected">#2B2B2B
         </ButtonSelectedGradientBegin>
         <ButtonSelectedGradientEnd description="Gets the end color of the gradient used when the button is selected">
-            #DCEBFC
+            #2B2B2B
         </ButtonSelectedGradientEnd>
         <ButtonSelectedGradientMiddle
-                description="Gets the middle color of the gradient used when the button is selected">#DCEBFC
+                description="Gets the middle color of the gradient used when the button is selected">#2B2B2B
         </ButtonSelectedGradientMiddle>
-        <ButtonSelectedHighlight description="Gets the solid color used when the button is selected">#DCEBFC
+        <ButtonSelectedHighlight description="Gets the solid color used when the button is selected">#2B2B2B
         </ButtonSelectedHighlight>
         <ButtonSelectedHighlightBorder description="Gets the border color to use with ButtonSelectedHighlight">#DCEBFC
         </ButtonSelectedHighlightBorder>
@@ -832,15 +832,15 @@
                 description="Gets the middle color of the gradient used in the image margin of a ToolStripDropDownMenu when an item is revealed">
             #F5F5F5
         </ImageMarginRevealedGradientMiddle>
-        <MenuBorder description="Gets the color that is the border color to use on a MenuStrip">#DDDDDD</MenuBorder>
-        <MenuItemBorder description="Gets the border color to use with a ToolStripMenuItem">#DCEBFC</MenuItemBorder>
+        <MenuBorder description="Gets the color that is the border color to use on a MenuStrip">#000000</MenuBorder>
+        <MenuItemBorder description="Gets the border color to use with a ToolStripMenuItem">Transparent</MenuItemBorder>
         <MenuItemPressedGradientBegin
                 description="Gets the starting color of the gradient used when a top-level ToolStripMenuItem is pressed">
-            #DCEBFC
+            #2B2B2B
         </MenuItemPressedGradientBegin>
         <MenuItemPressedGradientEnd
                 description="Gets the end color of the gradient used when a top-level ToolStripMenuItem is pressed">
-            #DCEBFC
+            #2B2B2B
         </MenuItemPressedGradientEnd>
         <MenuItemPressedGradientMiddle
                 description="Gets the middle color of the gradient used when a top-level ToolStripMenuItem is pressed">
@@ -848,14 +848,14 @@
         </MenuItemPressedGradientMiddle>
         <MenuItemSelected
                 description="Gets the solid color to use when a ToolStripMenuItem other than the top-level ToolStripMenuItem is selected">
-            #DCEBFC
+            #2B2B2B
         </MenuItemSelected>
         <MenuItemSelectedGradientBegin
                 description="Gets the starting color of the gradient used when the ToolStripMenuItem is selected">
-            #DCEBFC
+            #2B2B2B
         </MenuItemSelectedGradientBegin>
         <MenuItemSelectedGradientEnd
-                description="Gets the end color of the gradient used when the ToolStripMenuItem is selected">#DCEBFC
+                description="Gets the end color of the gradient used when the ToolStripMenuItem is selected">#2B2B2B
         </MenuItemSelectedGradientEnd>
         <MenuStripGradientBegin description="Gets the starting color of the gradient used in the MenuStrip">#3C3F41
         </MenuStripGradientBegin>
