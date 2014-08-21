@@ -569,10 +569,10 @@
     </AttachmentSelectedInactiveBackground>
     <!--Notification windows-->
     <NotificationWindowHeaderIconColor
-            description="Color of icons shown in notification header when the mouse is over the notification">#6C97CC
+            description="Color of icons shown in notification header when the mouse is over the notification">#bababa
     </NotificationWindowHeaderIconColor>
     <NotificationWindowHeaderIconOverColor
-            description="Color of icons shown in notification header when the mouse is over the icon">#5C80AE
+            description="Color of icons shown in notification header when the mouse is over the icon">#446A12
     </NotificationWindowHeaderIconOverColor>
     <NotificationWindowHeaderForeground description="Color of the header text in a notification window">#BABABA
     </NotificationWindowHeaderForeground>
@@ -586,14 +586,14 @@
     </NotificationWindowBackgroundEnd>
     <NotificationWindowHeaderStart
             description="Starting color of the gradient used as the background for header of notification windows">
-        #EAF5FF
+        #2B2B2B
     </NotificationWindowHeaderStart>
     <NotificationWindowHeaderEnd
-            description="Ending color of the gradient used as the background for header of notification windows">#D2E5FF
+            description="Ending color of the gradient used as the background for header of notification windows">#2B2B2B
     </NotificationWindowHeaderEnd>
-    <NotificationWindowHeaderBorder description="Color of the border line around notification windows header">#84ACDD
+    <NotificationWindowHeaderBorder description="Color of the border line around notification windows header">#2B2B2B
     </NotificationWindowHeaderBorder>
-    <NotificationWindowBorder description="Border line color around a notification window">#A0A0A0
+    <NotificationWindowBorder description="Border line color around a notification window">#2B2B2B
     </NotificationWindowBorder>
     <NotificationWindowBackgroundGradientAngle
             description="An angle in which the gradient used as a background for a notification window will be shown">90
